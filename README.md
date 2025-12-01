@@ -29,4 +29,6 @@ recon_mapping: MATLAB and Python scripts for extracting genes from reactions inv
 
 human_1_mapping.csv: List of metabolites from Recon3D with mapped Human1 IDs. 
 
-example_datasets: metabolomics and histone PTM data that can be used to test the machine lerning code present in this repository. The rest of the CCLE data and trained models may be found here: https://doi.org/10.7303/syn68236153
+example_datasets: Metabolomics and histone PTM (original and zero imputed) data that can be used to test the machine lerning code present in this repository. The rest of the preprocessed CCLE data and trained models may be found here: https://doi.org/10.7303/syn68236153
+
+preprocessing_example.ipynb: Example code for preprocessing the original histone PTM data along with examples of z-score normalization and KNN imputation. 
